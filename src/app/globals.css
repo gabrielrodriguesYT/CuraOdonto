@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 198 38% 95%;
+    --foreground: 204 30% 15%;
+    --card: 0 0% 100%;
+    --card-foreground: 204 30% 15%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 204 30% 15%;
+    --primary: 204 52% 52%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 171 56% 56%;
+    --secondary-foreground: 0 0% 100%;
+    --muted: 198 20% 90%;
+    --muted-foreground: 204 20% 40%;
+    --accent: 171 56% 96%;
+    --accent-foreground: 171 56% 30%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 198 20% 85%;
+    --input: 198 20% 85%;
+    --ring: 204 52% 52%;
+    --radius: 0.75rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground font-body;
+    scroll-behavior: smooth;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-headline font-bold;
+  }
+}
+
+.glass-card {
+  @apply bg-white/70 backdrop-blur-md border border-white/20 shadow-xl;
+}
+
+.hero-gradient {
+  background: linear-gradient(135deg, hsl(198 38% 95%) 0%, hsl(204 52% 92%) 100%);
+}
+
+.transition-all-smooth {
+  @apply transition-all duration-300 ease-in-out;
+}

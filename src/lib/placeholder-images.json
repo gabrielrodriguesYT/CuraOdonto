@@ -1,0 +1,40 @@
+{
+  "placeholderImages": [
+    {
+      "id": "hero-bg",
+      "description": "Modern dental clinic interior with professional equipment",
+      "imageUrl": "https://picsum.photos/seed/cura1/1200/800",
+      "imageHint": "dental office"
+    },
+    {
+      "id": "service-implants",
+      "description": "Dental implant procedure illustration",
+      "imageUrl": "https://picsum.photos/seed/cura2/600/400",
+      "imageHint": "dental implant"
+    },
+    {
+      "id": "gallery-1",
+      "description": "Smiling patient with dentist",
+      "imageUrl": "https://picsum.photos/seed/cura3/800/600",
+      "imageHint": "happy patient"
+    },
+    {
+      "id": "gallery-2",
+      "description": "State-of-the-art dental technology",
+      "imageUrl": "https://picsum.photos/seed/cura4/800/600",
+      "imageHint": "dental technology"
+    },
+    {
+      "id": "gallery-3",
+      "description": "Reception area of CuraOdonto",
+      "imageUrl": "https://picsum.photos/seed/cura5/800/600",
+      "imageHint": "clinic reception"
+    },
+    {
+      "id": "testimonial-1",
+      "description": "Satisfied client portrait",
+      "imageUrl": "https://picsum.photos/seed/cura6/100/100",
+      "imageHint": "person portrait"
+    }
+  ]
+}
